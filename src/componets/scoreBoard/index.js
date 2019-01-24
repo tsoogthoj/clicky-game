@@ -1,5 +1,5 @@
 import React from "react";
-import NavMessage from "../NavMessage";
+import NavMessage from "../navMessage";
 import "./style.css";
 
 // Component for the Navbar

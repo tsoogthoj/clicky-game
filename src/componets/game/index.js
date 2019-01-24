@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Nav from "../Nav";
-import Header from "../Header";
-import Container from "../Container";
-import ClickItem from "../ClickItem";
-import Footer from "../Footer";
+import Nav from "../scoreBoard";
+import Header from "../header";
+import Container from "../container";
+import ClickItem from "../clickItem";
+import Footer from "../footer";
 import data from "../../data.json";
 
 class Game extends Component {
