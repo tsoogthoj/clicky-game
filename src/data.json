@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/001.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/004.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/007.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/010.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/013.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/016.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/019.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/023.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/025.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/027.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/029.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/032.png",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "image": "/assets/images/035.png",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "image": "/assets/images/037.png",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "image": "/assets/images/041.png",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "image": "/assets/images/043.png",
+        "clicked": false
+    },
+    {
+        "id": 17,
+        "image": "/assets/images/046.png",
+        "clicked": false
+    },
+    {
+        "id": 18,
+        "image": "/assets/images/048.png",
+        "clicked": false
+    },
+    {
+        "id": 19,
+        "image": "/assets/images/050.png",
+        "clicked": false
+    },
+    {
+        "id": 20,
+        "image": "/assets/images/039.png",
+        "clicked": false
+    }
+]
