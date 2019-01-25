@@ -5,11 +5,13 @@ import "./style.css";
 function Header(props) {
   return (
     <header className="header">
-      <h2>
-        <div className="currentScore"></div>Score: {props.score}
-        <div className="topScore">Top Score: {props.topScore}</div>
-        <NavMessage score={props.score} topScore={props.topScore} />
-      </h2>
+      <h3>
+        <ul>
+          <div className="currentScore"></div>Score: {props.score}
+          <div className="topScore">Top Score: {props.topScore}</div>
+          <NavMessage score={props.score} topScore={props.topScore} />
+        </ul>
+      </h3>
       <div>
         <h3>Rules</h3>
         <p>Click on an image to get 1 point</p>

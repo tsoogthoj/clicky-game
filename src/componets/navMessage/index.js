@@ -36,12 +36,12 @@ class NavMessage extends Component {
 
   render() {
     return (
-      <div
+      <li
         className={this.state.animating ? this.state.message : ""}
         onAnimationEnd={() => this.setState({ animating: false })}
       >
         {this.renderMessage()}
-      </div>
+      </li>
     );
   }
 }
