@@ -1,12 +1,24 @@
 import React from "react";
+import NavMessage from "../navMessage"
 import "./style.css";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
-      <h1>Clicky Game!</h1>
-      <h2>Click on an image to earn points, but don't click on any more than once!</h2>
+      <h2>
+        <div className="currentScore"></div>Score: {props.score}
+        <div className="topScore">Top Score: {props.topScore}</div>
+        <NavMessage score={props.score} topScore={props.topScore} />
+      </h2>
+      <div>
+        <h3>Rules</h3>
+        <p>Click on an image to get 1 point</p>
+        <p>Click on the same image twice will reset your points</p>
+        <p>Click on all 15 images once to get the highest score</p>
+      </div>
     </header>
+
+
   );
 }
 

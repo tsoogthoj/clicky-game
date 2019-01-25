@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 
-// NavMessage renders an li tag containing an message for the user
-
 class NavMessage extends Component {
   state = {
     message: "",
@@ -28,22 +26,22 @@ class NavMessage extends Component {
   renderMessage = () => {
     switch (this.state.message) {
     case "correct":
-      return "You guessed correctly!";
+      return "Correct";
     case "incorrect":
-      return "You guessed incorrectly!";
+      return "Incorrect";
     default:
-      return "Click an image to begin!";
+      return "";
     }
   };
 
   render() {
     return (
-      <li
+      <div
         className={this.state.animating ? this.state.message : ""}
         onAnimationEnd={() => this.setState({ animating: false })}
       >
         {this.renderMessage()}
-      </li>
+      </div>
     );
   }
 }

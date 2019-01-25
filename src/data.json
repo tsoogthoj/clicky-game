@@ -73,30 +73,5 @@
         "id": 15,
         "image": "/assets/images/041.png",
         "clicked": false
-    },
-    {
-        "id": 16,
-        "image": "/assets/images/043.png",
-        "clicked": false
-    },
-    {
-        "id": 17,
-        "image": "/assets/images/046.png",
-        "clicked": false
-    },
-    {
-        "id": 18,
-        "image": "/assets/images/048.png",
-        "clicked": false
-    },
-    {
-        "id": 19,
-        "image": "/assets/images/050.png",
-        "clicked": false
-    },
-    {
-        "id": 20,
-        "image": "/assets/images/039.png",
-        "clicked": false
     }
 ]
