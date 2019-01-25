@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import "./style.css";
 
 class NavMessage extends Component {
   state = {
     message: "",
-    animating: false
   };
 
   componentDidUpdate({ score, topScore }, prevState) {
@@ -36,10 +34,7 @@ class NavMessage extends Component {
 
   render() {
     return (
-      <li
-        className={this.state.animating ? this.state.message : ""}
-        onAnimationEnd={() => this.setState({ animating: false })}
-      >
+      <li>
         {this.renderMessage()}
       </li>
     );
