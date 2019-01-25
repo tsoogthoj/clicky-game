@@ -3,7 +3,6 @@ import Nav from "../scoreBoard";
 import Header from "../header";
 import Container from "../container";
 import ClickItem from "../clickItem";
-import Footer from "../footer";
 import data from "../../data.json";
 
 class Game extends Component {
@@ -86,7 +85,6 @@ class Game extends Component {
             />
           ))}
         </Container>
-        <Footer />
       </div>
     );
   }
